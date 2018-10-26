@@ -34,5 +34,8 @@
   ],
   "author": "Jamie Scott",
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/jamiemscott/dev.jamie-scott.co.uk#readme"
+  "homepage": "https://bitbucket.org/jamiemscott/dev.jamie-scott.co.uk#readme",
+  "dependencies": {
+    "backstopjs": "^3.7.0"
+  }
 }
