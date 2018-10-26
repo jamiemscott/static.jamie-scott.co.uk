@@ -1,0 +1,38 @@
+{
+  "name": "dev.jamie-scott.co.uk",
+  "version": "1.0.0",
+  "description": "development environment for jamie-scott.co.uk",
+  "main": "index.php",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "eyeglass": "^1.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-zip": "^4.2.0",
+    "imagemin-jpeg-recompress": "^5.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "sass-toolkit": "^2.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/jamiemscott/dev.jamie-scott.co.uk.git"
+  },
+  "keywords": [
+    "php",
+    "html5",
+    "sass",
+    "css"
+  ],
+  "author": "Jamie Scott",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/jamiemscott/dev.jamie-scott.co.uk#readme"
+}

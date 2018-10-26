@@ -1,0 +1,72 @@
+//The base layout concerned with the overall layout of the main elements on the page
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  align-content: stretch;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  justify-content: flex-start;
+  
+  //background: #000 url('//res.cloudinary.com/jamie-scott-co-uk/c_scale,q_44,w_2500/videos/Storm_darck_web720p_clipchamp.com.jpg') no-repeat center center fixed;
+} //body
+
+#tophat {
+  order: 1;
+} //tophat
+
+header[role="banner"] {
+  order: 2;
+} //header
+
+@media only screen and (min-width: 600px) {
+  header[role="banner"] {
+    order: 1;
+  }
+}
+
+main[role="main"] {
+  align-items: stretch;
+  display: flex;
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: auto; //dont group these IE doesnt like it
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  order: 1;
+
+  section {
+    align-items: stretch;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto; //dont group these IE doesnt like it
+    order: 2;
+
+    @media only screen and (min-width: 600px) {
+      flex-basis: 0;
+      order: 1;
+    }
+  }
+
+  aside {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto; //dont group these IE doesnt like it
+    order: 1;
+
+    @media only screen and (min-width: 600px) {
+      flex: 0 0 350px;
+    }
+  } 
+}
+
+footer {
+  order: 1;
+}
