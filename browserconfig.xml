@@ -3,10 +3,11 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="tile.png"/>
-            <square150x150logo src="tile.png"/>
-            <wide310x150logo src="tile-wide.png"/>
-            <square310x310logo src="tile.png"/>
+            <square70x70logo src="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_70,w_70/icons/favicons/icon-master.png"/>
+            <square150x150logo src="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_150,w_150/icons/favicons/icon-master.png"/>
+            <wide310x150logo src="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_150,w_310/icons/favicons/icon-master.png"/>
+            <square310x310logo src="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_310,w_310/icons/favicons/icon-master.png"/>
         </tile>
+        <TileColor>#000000</TileColor>
     </msapplication>
 </browserconfig>

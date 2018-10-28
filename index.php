@@ -1,3 +1,5 @@
+<?php $imagePath = '//res.cloudinary.com/jamie-scott-co-uk'; ?>
+
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -9,9 +11,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  
+  <?php // Favicons and App images ?>
+  <link rel="apple-touch-icon" sizes="57x57" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_57,w_57/icons/favicons/icon-master.png">
+  <link rel="apple-touch-icon" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_120,w_120/icons/favicons/icon-master.png">  
+  <link rel="apple-touch-icon" sizes="180x180" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_180,w_180/icons/favicons/icon-master.png">  
+  <link rel="apple-touch-icon" sizes="152x152" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_152,w_152/icons/favicons/icon-master.png">  
+  <link rel="apple-touch-icon" sizes="167x167" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_167,w_167/icons/favicons/icon-master.png"> 
+  <link rel="icon" type="image/png" sizes="16x16" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_16,w_16/icons/favicons/icon-master.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_32,w_32/icons/favicons/icon-master.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_96,w_96/icons/favicons/icon-master.png">
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -19,16 +30,14 @@
 
   <!--[if lte IE 9]>
   <div id="tophat">
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="//browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   </div>
   <![endif]-->
 
   <header role="banner">
-    <div class="">
-      <nav class="">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+  <nav class="">
+          <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Resumé</a></li>
@@ -36,16 +45,13 @@
             <li><a href="">Testimonials</a></li>
             <li><a href="">Contact</a></li>
           </ul>
-        </div>
       </nav>
-    </div>
   </header>
   
-  <!-- https://res.cloudinary.com/jamie-scott-co-uk/video/upload/v1433454936/videos/storm-light.mp4 -->
+  <!-- //res.cloudinary.com/jamie-scott-co-uk/video/upload/v1433454936/videos/storm-light.mp4 -->
   
   <main role="main">
     <section id="about">
-    
     </section>
 
     <section id="resume"></section>
@@ -76,7 +82,7 @@
   </footer>
 
   <script src="assets/javascript/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
   </script>
@@ -93,7 +99,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto');
     ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <script src="//www.google-analytics.com/analytics.js" async defer></script>
 
 </body>
 

@@ -1,9 +1,4 @@
 //The base layout concerned with the overall layout of the main elements on the page
-
-* {
-  box-sizing: border-box;
-}
-
 html {
   height: 100%;
 }
@@ -14,8 +9,6 @@ body {
   flex-flow: column nowrap;
   height: 100%;
   justify-content: flex-start;
-  
-  //background: #000 url('//res.cloudinary.com/jamie-scott-co-uk/c_scale,q_44,w_2500/videos/Storm_darck_web720p_clipchamp.com.jpg') no-repeat center center fixed;
 } //body
 
 #tophat {
