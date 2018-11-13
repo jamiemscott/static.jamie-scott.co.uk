@@ -1,0 +1,31 @@
+.landscape {
+  background-attachment: scroll;
+  /*background-blend-mode: soft-light;*/
+  background-color: teal;
+  background-image: radial-gradient(ellipse farthest-side at center center, rgba(0, 128, 128, 0.65) 0%, rgba(0, 0, 0, 0.75) 100%),
+                    url('//res.cloudinary.com/jamie-scott-co-uk/c_scale,h_1824,q_jpegmini:2,w_2732/backgrounds/brown-tree-in-forest.jpg');
+  background-origin: border-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  box-shadow: inset 0 0 100px black;
+  image-rendering: pixelated;
+
+  &::after {
+    animation: grain 8s steps(10) infinite;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url('https://res.cloudinary.com/jamie-scott-co-uk/c_scale,w_400/backgrounds/noise/paper_1__2x.png');
+    background-origin: content-box;
+    background-position: center center;
+    background-repeat: repeat;
+    content: "";
+    height: 500%;
+    left: -50%;
+    opacity: 0.35;
+    position: fixed;
+    top: -150%;
+    width: 500%;
+  }
+
+}

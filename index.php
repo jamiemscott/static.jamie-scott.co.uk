@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body class="landscape">
 
   <!--[if lte IE 9]>
   <div id="tophat">
@@ -35,17 +35,17 @@
   <![endif]-->
 
   <header role="banner">
-
-  <nav class="">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Resumé</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-      </nav>
+    <h2 id="header-navigation">Main site navigation</h2>
+    <nav aria-labelledby="header-navigation" class="navigation-inline">
+        <ul>
+          <li><a href="#" aria-current="page">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resumé</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
   </header>
   
   <!-- //res.cloudinary.com/jamie-scott-co-uk/video/upload/v1433454936/videos/storm-light.mp4 -->

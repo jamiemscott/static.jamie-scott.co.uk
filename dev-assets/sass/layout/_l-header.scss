@@ -1,0 +1,25 @@
+header[role="banner"] {
+  background-color: $grey;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 12px;
+  justify-content: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+
+  h2 {@extend %visuallyhidden;}
+
+  nav {
+
+    a {
+
+      &:link, &:visited, &:hover, &:active, &:focus {
+        color: #fff;
+        text-decoration: none;
+      }
+
+    }
+
+  }
+
+}

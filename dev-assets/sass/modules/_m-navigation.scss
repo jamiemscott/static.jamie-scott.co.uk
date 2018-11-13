@@ -1,0 +1,23 @@
+.navigation {
+
+  &-inline {
+
+    ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+
+      li {
+        list-style-type: none;
+
+        &:not(last-of-type) {
+          margin-left: 10px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
