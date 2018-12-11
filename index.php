@@ -81,6 +81,11 @@
 
   </footer>
 
+  <!-- <video playsinline autoplay muted loop poster="https://res.cloudinary.com/jamie-scott-co-uk/video/upload/c_scale,w_1366/videos/Storm_darck_web720p_clipchamp.com.jpg" id="bgvid">
+    <source src="https://res.cloudinary.com/jamie-scott-co-uk/video/upload/c_scale,w_1366/videos/Storm_darck_web720p_clipchamp.com.webm" type="video/webm">
+    <source src="https://res.cloudinary.com/jamie-scott-co-uk/video/upload/c_scale,w_1366/videos/Storm_darck_web720p_clipchamp.com.mp4" type="video/mp4">
+  </video> -->
+
   <script src="assets/javascript/vendor/modernizr-3.6.0.min.js"></script>
   <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>
