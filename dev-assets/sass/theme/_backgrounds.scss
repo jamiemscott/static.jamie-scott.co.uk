@@ -12,7 +12,7 @@
   image-rendering: pixelated;
 
   &::after {
-    animation: grain 8s steps(10) infinite;
+    animation: randomPath 8s steps(10) infinite;
     background-attachment: scroll;
     background-color: transparent;
     background-image: url('https://res.cloudinary.com/jamie-scott-co-uk/c_scale,w_400/backgrounds/noise/paper_1__2x.png');
