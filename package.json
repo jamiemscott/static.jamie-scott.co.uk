@@ -4,19 +4,19 @@
   "description": "development environment for jamie-scott.co.uk",
   "main": "index.php",
   "devDependencies": {
-    "del": "^3.0.0",
-    "eyeglass": "^1.6.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-imagemin": "^3.0.1",
+    "del": "^6.0.0",
+    "eyeglass": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "gulp-zip": "^4.2.0",
-    "imagemin-jpeg-recompress": "^5.0.0",
-    "imagemin-pngquant": "^5.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.1.0",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
     "sass-toolkit": "^2.10.2"
   },
   "scripts": {
@@ -36,6 +36,6 @@
   "license": "UNLICENSED",
   "homepage": "https://bitbucket.org/jamiemscott/dev.jamie-scott.co.uk#readme",
   "dependencies": {
-    "backstopjs": "^3.8.5"
+    "backstopjs": "^5.2.1"
   }
 }
