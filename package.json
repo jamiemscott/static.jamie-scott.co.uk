@@ -3,22 +3,7 @@
   "version": "1.0.0",
   "description": "development environment for jamie-scott.co.uk",
   "main": "index.php",
-  "devDependencies": {
-    "del": "^6.0.0",
-    "eyeglass": "^3.0.2",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "gulp-zip": "^5.1.0",
-    "imagemin-jpeg-recompress": "^7.0.0",
-    "imagemin-pngquant": "^9.0.2",
-    "sass-toolkit": "^2.10.2"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -34,8 +19,6 @@
   ],
   "author": "Jamie Scott",
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/jamiemscott/dev.jamie-scott.co.uk#readme",
-  "dependencies": {
-    "backstopjs": "^5.2.1"
-  }
+  "homepage": "",
+  "dependencies": {}
 }
